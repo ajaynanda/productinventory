@@ -1,0 +1,22 @@
+{
+  "name": "productinventory",
+  "version": "1.0.0",
+  "description": "Application for texolworld Prduct invebtory",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Ajay nanda t",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
